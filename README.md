@@ -1,19 +1,36 @@
-# bundl-plugins
+# bundl-plugins 📦
 
+Repository for officially supported packages for [Bundl](https://bundljs.org).
 
 Plugins will be published to the NPM org @bundl
 
-The suggested nomeclature for the plugins since they are all ready scoped unde `@bundl` is:
+## Using plugins
 
-```
-@bundl/name
+Install the plugin you need:
 
+```sh
+# npm
+npm i -D @bundl/<package>
+# yarn
+yarn add -D @bundl/<package>
 ```
 
-*Example:* 
+And then import it in bundl.config.js:
+
+```js
+const babel = require('@bundl/babel') 
+
+module.exports = {
+  output: {
+    'build/bundle.js': {
+      use: babel,
+      input: 'src/**.js'
+    }
+  }
+}
 ```
-@bundl/babel
-@bundl/typescript
-@bundl/less
-@nundl/uglify
-```
+
+## Available plugins
+
+* [Babel](https://www.npmjs.com/package/@bundl/babel)
+* [Stylus](https://www.npmjs.com/package/@bundl/stylus)

@@ -1,0 +1,10 @@
+{
+  "name": "buble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vimlet/bundl": "^1.0.5",
+    "buble": "^0.19.8"
+  }
+}
