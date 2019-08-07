@@ -1,6 +1,6 @@
 # @bundl/stylus
 
-Stylus plugin for Bundl.
+[Stylus](http://stylus-lang.com) plugin for [Bundl](https://bundljs.org).
 
 ## Installation
 

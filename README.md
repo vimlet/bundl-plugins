@@ -2,8 +2,6 @@
 
 Repository for officially supported packages for [Bundl](https://bundljs.org).
 
-Plugins will be published to the NPM org @bundl.
-
 ## Using plugins
 
 Install the plugin you need:

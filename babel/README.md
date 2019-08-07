@@ -1,6 +1,6 @@
 # @bundl/babel
 
-Bundl plugin to compile code using Babel.
+[Bundl](https://bundljs.org) plugin for [Babel](https://babeljs.io).
 
 ## Installation
 
