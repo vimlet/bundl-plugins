@@ -26,7 +26,6 @@ Examples:
   "stylus": "latest"
 },
 "devDependencies": {
-  "@vimlet/bundl": "^1.0.5",
   "stylus": "^0.54.5"
 }
 ```
@@ -60,7 +59,6 @@ Example `package.json`:
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@vimlet/bundl": "^1.0.5",
     "stylus": "^0.54.5"
   },
   "peerDependencies": {

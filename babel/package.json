@@ -11,8 +11,7 @@
     "bundl-plugin"
   ],
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@vimlet/bundl": "^1.0.5"
+    "@babel/core": "^7.5.5"
   },
   "peerDependencies": {
     "@babel/core": ">=7.5",

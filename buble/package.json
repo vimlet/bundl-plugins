@@ -2,11 +2,15 @@
   "name": "@bundl/buble",
   "version": "0.0.1",
   "description": "Bundl plugin for Buble",
-  "keywords": ["bundl", "buble", "plugin", "bundl-plugin"],
+  "keywords": [
+    "bundl",
+    "buble",
+    "plugin",
+    "bundl-plugin"
+  ],
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@vimlet/bundl": "^1.0.5",
     "buble": "^0.19.8"
   },
   "peerDependencies": {
