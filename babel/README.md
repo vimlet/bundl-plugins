@@ -6,9 +6,9 @@
 
 ```sh
 # npm
-npm i -D @bundl/babel
+npm i -D @bundl/babel @babel/core
 # yarn
-yarn add -D @bundl/babel
+yarn add -D @bundl/babel @babel/core
 ```
 
 ## Usage

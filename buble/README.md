@@ -1,14 +1,14 @@
 # @bundl/buble
 
-[Bundl](https://bundljs.org) plugin for [Bublé](https://buble.surge.sh)
+[Bundl](https://bundljs.org) plugin for [Buble](https://buble.surge.sh)
 
 ## Installation
 
 ```sh
 # npm
-npm i -D @bundl/buble
+npm i -D @bundl/buble buble
 # yarn
-yarn add -D @bundl/buble
+yarn add -D @bundl/buble buble
 ```
 
 ## Usage
