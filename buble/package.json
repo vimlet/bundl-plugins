@@ -1,6 +1,8 @@
 {
-  "name": "buble",
-  "version": "1.0.0",
+  "name": "@bundl/buble",
+  "version": "0.0.1",
+  "description": "Bundl plugin for Bublé",
+  "keywords": ["bundl", "buble", "plugin", "bundl-plugin"],
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
