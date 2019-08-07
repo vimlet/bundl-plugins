@@ -4,10 +4,9 @@
 
 * Create a directory for your plugin which is named what this is plugin for.
 
-Examples:
+`@bundl/stylus` should have a directory **stylus**
 
-* `@bundl/stylus` should have a directory **stylus**
-* `@bundl/sass` should have a directory **sass**
+`@bundl/sass` should have a directory **sass**
 
 * Add `@vimlet/bundl` as a peer dependency (and optionally dev) to your plugin.
 
