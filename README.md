@@ -8,9 +8,9 @@ Install the plugin you need:
 
 ```sh
 # npm
-npm i -D @bundl/<package>
+npm i -D @bundl/<package> <package>
 # yarn
-yarn add -D @bundl/<package>
+yarn add -D @bundl/<package> <package>
 ```
 
 And then import it in bundl.config.js:
