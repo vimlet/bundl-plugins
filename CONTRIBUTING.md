@@ -30,10 +30,23 @@ Examples:
 }
 ```
 
-* Create `index.js` file with your plugin. It should be an exported function which accepts these arguments:
+* Create `index.js` file with your plugin. It should be an exported function that return an entry and accepts these arguments:
 
 * `entry` - Bundl's entry, e.g. code you want to transform
 * `opts` - Optional argument in case plugin's API has some options, for example Babel has options for presets / plugins.
+
+Example:
+
+```js
+const someCoolAPI = require('...')
+
+module.exports = (entry, opts) => {
+  entry.content = someCoolAPI(entry.content, opts)
+  return entry
+}
+```
+
+Function can be both sync and async.
 
 * Add license (MIT), version, keywords and description to package info.
 
