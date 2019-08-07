@@ -4,6 +4,8 @@
 
 * Create a directory for your plugin which is named what this is plugin for.
 
+Examples:
+
 `@bundl/stylus` should have a directory **stylus**
 
 `@bundl/sass` should have a directory **sass**
@@ -31,8 +33,8 @@
 
 * Create `index.js` file with your plugin. It should be an exported function that return an entry and accepts these arguments:
 
-* `entry` - Bundl's entry, e.g. code you want to transform
-* `opts` - Optional argument in case plugin's API has some options, for example Babel has options for presets / plugins.
+`entry` - Bundl's entry, e.g. code you want to transform
+`opts` - Optional argument in case plugin's API has some options, for example Babel has options for presets / plugins.
 
 Example:
 
