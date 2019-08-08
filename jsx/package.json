@@ -1,0 +1,17 @@
+{
+  "name": "jsx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "JSX plugin for Bundl",
+  "keywords": [
+    "jsx",
+    "bundl",
+    "bundl-plugin",
+    "bundling"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "jsx-transform": "^2.4.0"
+  }
+}
