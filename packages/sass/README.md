@@ -1,6 +1,6 @@
 # @bundl/sass
 
-[Stylus](https://sass-lang.com) plugin for [Bundl](https://bundljs.org).
+[Sass](https://sass-lang.com) plugin for [Bundl](https://bundljs.org).
 
 ## Installation
 
