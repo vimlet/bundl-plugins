@@ -1,6 +1,6 @@
 # @bundl/jsx
 
-JSX Plugin for Bundl.
+JSX Plugin for [Bundl](https://bundljs.org).
 
 > Note that it doesn't compile using Babel. For Babel use [this](https://www.npmjs.com/package/@bundl/babel) plugin.
 

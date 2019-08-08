@@ -1,6 +1,6 @@
 {
-  "name": "jsx",
-  "version": "1.0.0",
+  "name": "@bundl/jsx",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "description": "JSX plugin for Bundl",
@@ -10,7 +10,9 @@
     "bundl-plugin",
     "bundling"
   ],
-  "devDependencies": {},
+  "peerDependencies": {
+    "@vimlet/bundl": ">=1.0.5"
+  },
   "dependencies": {
     "jsx-transform": "^2.4.0"
   }
