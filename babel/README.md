@@ -6,9 +6,9 @@
 
 ```sh
 # npm
-npm i -D @bundl/babel @babel/core
+npm i -D @bundl/babel
 # yarn
-yarn add -D @bundl/babel @babel/core
+yarn add -D @bundl/babel
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ const babel = require('@bundl/babel')
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: babel,
+      use: babel(),
       input: 'src/**.js'
     }
   }
@@ -36,7 +36,7 @@ const babel = require('@bundl/babel')
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: entry => babel(entry, {
+      use: babel({
         presets: ['@babel/preset-env']
       }),
       input: {

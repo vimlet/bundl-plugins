@@ -4,11 +4,11 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "stylus": "^0.54.5"
   },
   "peerDependencies": {
-    "@vimlet/bundl": ">=1.0.5",
+    "@vimlet/bundl": ">=1.1",
     "stylus": ">=0.54.5"
   }
 }

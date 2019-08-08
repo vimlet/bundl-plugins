@@ -1,6 +1,8 @@
 const buble = require('buble')
 
-module.exports = (entry, opts) => {
-  entry.content = buble.transform(entry.content, opts).code
-  return entry
+module.exports = opts => {
+  return entry => {
+    entry.content = buble.transform(entry.content, opts).code
+    return entry
+  }
 }

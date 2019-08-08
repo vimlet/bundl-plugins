@@ -6,9 +6,9 @@
 
 ```sh
 # npm
-npm i -D @bundl/terser terser
+npm i -D @bundl/terser
 # yarn
-yarn add -D @bundl/terser terser
+yarn add -D @bundl/terser
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ const terser = require('@bundl/terser')
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: terser,
+      use: terser(),
       input: 'src/*.js'
     }
   }
@@ -34,7 +34,7 @@ const terser = require('@bundl/terser')
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: entry => terser(entry, { toplevel: true }),
+      use: terser({ toplevel: true }),
       input: 'src/*.js'
     }
   }

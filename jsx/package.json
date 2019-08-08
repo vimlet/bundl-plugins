@@ -11,7 +11,7 @@
     "bundling"
   ],
   "peerDependencies": {
-    "@vimlet/bundl": ">=1.0.5"
+    "@vimlet/bundl": ">=1.1.0"
   },
   "dependencies": {
     "jsx-transform": "^2.4.0"

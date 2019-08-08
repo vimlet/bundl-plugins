@@ -14,7 +14,7 @@ Examples:
 
 ```json
   "peerDependencies": {
-    "@vimlet/bundl": "latest"
+    "@vimlet/bundl": ">=1.1"
   }
 ```
 
@@ -30,17 +30,22 @@ Examples:
 }
 ```
 
-* Create `index.js` file with your plugin. It should be an exported function that return an entry and accepts these arguments:
+* Create `index.js` file with your plugin. It should be an exported function that returns another function.
 
-`entry` - Bundl's entry, e.g. code you want to transform
+First function has opts argument
+
 `opts` - Optional argument in case plugin's API has some options, for example Babel has options for presets / plugins.
+
+Second function has entry argument
+
+`entry` - Bundl's entry, e.g. code you want to transform. The code itself is accessible via `entry.content`
 
 Example:
 
 ```js
 const someCoolAPI = require('...')
 
-module.exports = (entry, opts) => {
+module.exports = opts => entry => {
   entry.content = someCoolAPI(entry.content, opts)
   return entry
 }
@@ -58,12 +63,12 @@ Example `package.json`:
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "stylus": "^0.54.5"
   },
   "peerDependencies": {
-    "@vimlet/bundl": "latest",
-    "stylus": "latest"
+    "@vimlet/bundl": ">=1.1",
+    "stylus": ">=0.54.5"
   }
 }
 ```

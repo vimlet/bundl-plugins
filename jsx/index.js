@@ -1,6 +1,6 @@
 const { fromString } = require('jsx-transform')
 
-module.exports = (entry, opts) => {
+module.exports = opts => entry => {
   entry.content = fromString(entry.content, opts || {
     factory: 'React.createElement'
   })

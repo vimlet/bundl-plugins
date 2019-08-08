@@ -21,7 +21,7 @@ const jsx = require('@bundl/jsx')
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: jsx,
+      use: jsx(),
       input: 'src/*.js'
     }
   }
@@ -30,15 +30,15 @@ module.exports = {
 
 ### Custom JSX factory
 
+This plugin uses [jsx-transform](https://github.com/alexmingoia/jsx-transform) so all options are inherited from it.
+
 ```js
 const jsx = require('@bundl/jsx')
 
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: entry => jsx(entry, { 
-        factory: 'preact.h'
-      }),
+      use: jsx({ factory: 'preact.h' }),
       input: 'src/*.js'
     }
   }

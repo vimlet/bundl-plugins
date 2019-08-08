@@ -8,9 +8,9 @@ Install the plugin you need:
 
 ```sh
 # npm
-npm i -D @bundl/<package> <package>
+npm i -D @bundl/<package>
 # yarn
-yarn add -D @bundl/<package> <package>
+yarn add -D @bundl/<package>
 ```
 
 And then import it in bundl.config.js:
@@ -21,7 +21,7 @@ const babel = require('@bundl/babel')
 module.exports = {
   output: {
     'build/bundle.js': {
-      use: babel,
+      use: babel(),
       input: 'src/**.js'
     }
   }
@@ -34,10 +34,10 @@ module.exports = {
 * [Stylus](https://www.npmjs.com/package/@bundl/stylus)
 * [Bublé](https://www.npmjs.com/package/@bundl/buble)
 * [Terser](https://www.npmjs.com/package/@bundl/terser)
+* [JSX](https://www.npmjs.com/package/@bundl/jsx)
 
 ## W.I.P plugins
 
 * TypeScript
 * Sass
 * PostCSS
-* JSX

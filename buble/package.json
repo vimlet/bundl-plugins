@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "buble": "^0.19.8"
   },
   "peerDependencies": {

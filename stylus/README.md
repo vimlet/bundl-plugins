@@ -6,9 +6,9 @@
 
 ```sh
 # npm
-npm i -D @bundl/stylus stylus
+npm i -D @bundl/stylus
 # yarn
-yarn add -D @bundl/stylus stylus
+yarn add -D @bundl/stylus
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ const stylus = require('@bundl/stylus')
 module.exports = {
   output: {
     'build/style.css': {
-      use: stylus,
+      use: stylus(),
       input: 'src/*.styl'
     }
   }
