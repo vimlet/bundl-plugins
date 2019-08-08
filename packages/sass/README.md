@@ -22,7 +22,7 @@ module.exports = {
   output: {
     'build/style.css': {
       use: sass(),
-      input: 'src/*.styl'
+      input: 'src/*.sass'
     }
   }
 }
@@ -37,7 +37,7 @@ module.exports = {
   output: {
     'build/style.css': {
       use: sass({ indentedSyntax: true }),
-      input: 'src/*.styl'
+      input: 'src/*.sass'
     }
   }
 }
