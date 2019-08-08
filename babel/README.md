@@ -1,6 +1,6 @@
 # @bundl/babel
 
-[Bundl](https://bundljs.org) plugin for [Babel](https://babeljs.io).
+[Babel](https://babeljs.io) plugin for [Bundl](https://bundljs.org).
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
   "name": "@bundl/terser",
-  "description": "Bundl plugin for Terser",
+  "description": "Terser plugin for Bundl",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

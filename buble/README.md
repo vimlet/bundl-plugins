@@ -1,6 +1,6 @@
 # @bundl/buble
 
-[Bundl](https://bundljs.org) plugin for [Buble](https://buble.surge.sh)
+[Buble](https://buble.surge.sh) plugin for [Bundl](https://bundljs.org).
 
 ## Installation
 

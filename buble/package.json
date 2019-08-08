@@ -1,7 +1,7 @@
 {
   "name": "@bundl/buble",
   "version": "0.0.1",
-  "description": "Bundl plugin for Buble",
+  "description": "Buble plugin for Bundl",
   "keywords": [
     "bundl",
     "buble",

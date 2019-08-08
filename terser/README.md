@@ -1,6 +1,6 @@
 # @bundl/terser
 
-Bundl plugin for Terser.
+[Terser](https://www.npmjs.com/package/terser) plugin for [Bundl](https://bundljs.org).
 
 ## Installation
 
@@ -18,8 +18,23 @@ const terser = require('@bundl/terser')
 
 module.exports = {
   output: {
-    'build/style.css': {
+    'build/bundle.js': {
       use: terser,
+      input: 'src/*.js'
+    }
+  }
+}
+```
+
+### Custom options
+
+```js
+const terser = require('@bundl/terser')
+
+module.exports = {
+  output: {
+    'build/bundle.js': {
+      use: entry => terser(entry, { toplevel: true }),
       input: 'src/*.js'
     }
   }
