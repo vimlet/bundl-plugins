@@ -35,9 +35,9 @@ module.exports = {
 * [Bublé](https://www.npmjs.com/package/@bundl/buble)
 * [Terser](https://www.npmjs.com/package/@bundl/terser)
 * [JSX](https://www.npmjs.com/package/@bundl/jsx)
+* [Sass](https://www.npmjs.com/package/@bundl/sass)
 
 ## W.I.P plugins
 
 * TypeScript
-* Sass
 * PostCSS
