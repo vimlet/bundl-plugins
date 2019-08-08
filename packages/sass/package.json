@@ -1,6 +1,6 @@
 {
   "name": "@bundl/sass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sass plugin for Bundl",
   "keywords": [
     "sass",
