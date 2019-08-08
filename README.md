@@ -32,12 +32,12 @@ module.exports = {
 
 * [Babel](https://www.npmjs.com/package/@bundl/babel)
 * [Stylus](https://www.npmjs.com/package/@bundl/stylus)
+* [Bublé](https://www.npmjs.com/package/@bundl/buble)
+* [Terser](https://www.npmjs.com/package/@bundl/terser)
 
 ## W.I.P plugins
 
-* Bublé
 * TypeScript
 * Sass
 * PostCSS
 * JSX
-* Terser
