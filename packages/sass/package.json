@@ -1,0 +1,27 @@
+{
+  "name": "@bundl/sass",
+  "version": "0.0.2",
+  "description": "Sass plugin for Bundl",
+  "keywords": [
+    "sass",
+    "bundl",
+    "bundl-plugin"
+  ],
+  "author": "talentlessguy <pilll.PL22@gmail.com>",
+  "homepage": "https://bundljs.org/",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimlet/bundl-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vimlet/bundl-plugins/issues"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "peerDependencies": {
+    "node-sass": ">=4.12"
+  }
+}
