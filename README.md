@@ -1,5 +1,7 @@
 # bundl-plugins 📦
 
+[![Codacy grade](https://img.shields.io/codacy/grade/bdb915899bfb4959af79d12968f1461e?style=flat-square)](https://app.codacy.com/project/vimlet/bundl-plugins/dashboard) [![Travis](https://img.shields.io/travis/vimlet/bundl-plugins?style=flat-square)](https://travis-ci.org/vimlet/bundl-plugins)
+
 Repository for officially supported packages for [Bundl](https://bundljs.org).
 
 ## Using plugins
@@ -39,5 +41,6 @@ module.exports = {
 
 ## W.I.P plugins
 
-* TypeScript
-* PostCSS
+* ESLint
+* CoffeeScript
+* LESS
