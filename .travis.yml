@@ -5,6 +5,8 @@ node_js:
 
 install:
   - yarn
+  - yarn global add lerna
+  - lerna bootstrap
   - yarn global add codecov
 
 cache: yarn
