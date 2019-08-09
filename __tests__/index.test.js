@@ -24,10 +24,8 @@ describe('Sass', () => {
     expect(compiled).toMatch('body{margin:0}body a{color:blue}')
   })
   it('should render Sass to CSS', () => {
-
     const entry = {
-      content:
-      `$color: blue
+      content: `$color: blue
 body
   margin: 0
   a
@@ -37,5 +35,28 @@ body
     const compiled = sass({ indentedSyntax: true })(entry).content.toString()
 
     expect(compiled).toMatch('body{margin:0}body a{color:blue}')
+  })
+})
+
+describe('JSX', () => {
+  it('should compile JSX to React.createElement', () => {
+    const entry = {
+      content: `<h1>Hello World</h1>`
+    }
+
+    const compiled = jsx()(entry).content
+
+    expect(compiled).toMatch(
+      `React.createElement('h1', null, [\"Hello World\"])`
+    )
+  })
+  it('should compile JSX to Preact', () => {
+    const entry = {
+      content: `<h1>Hello World</h1>`
+    }
+
+    const compiled = jsx({ factory: 'preact.h' })(entry).content
+
+    expect(compiled).toMatch(`preact.h('h1', null, [\"Hello World\"])`)
   })
 })
