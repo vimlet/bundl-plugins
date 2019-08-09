@@ -10,7 +10,8 @@
   "bugs": {
     "url": "https://github.com/vimlet/bundl-plugins/issues"
   },
-  "version": "0.0.2",
+  "readme": "README.md",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -19,5 +20,6 @@
   "peerDependencies": {
     "@vimlet/bundl": ">=1.1",
     "coffeescript": ">=2.4.1"
-  }
+  },
+  "gitHead": "8457b6950409bf36a0c14733de1e87720166954f"
 }
