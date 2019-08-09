@@ -1,7 +1,7 @@
 {
   "name": "@bundl/terser",
   "description": "Terser plugin for Bundl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "talentlessguy <pilll.PL22@gmail.com>",
   "homepage": "https://bundljs.org/",
