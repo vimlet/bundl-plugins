@@ -14,22 +14,7 @@ yarn add -D @bundl/buble
 ## Usage
 
 ```js
-const buble = require('@bundl/buble') 
-
-module.exports = {
-  output: {
-    'build/bundle.js': {
-      use: buble(),
-      input: 'src/**.js'
-    }
-  }
-}
-```
-
-### Custom options
-
-```js
-const buble = require('@bundl/buble') 
+const buble = require('@bundl/buble')
 
 module.exports = {
   output: {

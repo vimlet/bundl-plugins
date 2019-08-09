@@ -4,6 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "description": "JSX plugin for Bundl",
+  "author": "talentlessguy <pilll.PL22@gmail.com>",
+  "homepage": "https://bundljs.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimlet/bundl-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vimlet/bundl-plugins/issues"
+  },
   "keywords": [
     "jsx",
     "bundl",
@@ -11,7 +20,8 @@
     "bundling"
   ],
   "peerDependencies": {
-    "@vimlet/bundl": ">=1.1.0"
+    "@vimlet/bundl": ">=1.1.0",
+    "jsx-transform": ">=2.4.0"
   },
   "dependencies": {
     "jsx-transform": "^2.4.0"

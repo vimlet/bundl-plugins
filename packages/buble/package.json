@@ -2,6 +2,15 @@
   "name": "@bundl/buble",
   "version": "0.0.3",
   "description": "Buble plugin for Bundl",
+  "author": "talentlessguy <pilll.PL22@gmail.com>",
+  "homepage": "https://bundljs.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimlet/bundl-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vimlet/bundl-plugins/issues"
+  },
   "keywords": [
     "bundl",
     "buble",
@@ -14,7 +23,7 @@
     "buble": "^0.19.8"
   },
   "peerDependencies": {
-    "@vimlet/bundl": ">=1.0.5",
-    "buble": ">=0.19"
+    "@vimlet/bundl": ">=1.1",
+    "buble": ">=0.19.8"
   }
 }

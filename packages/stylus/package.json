@@ -4,6 +4,15 @@
   "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
+  "author": "talentlessguy <pilll.PL22@gmail.com>",
+  "homepage": "https://bundljs.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimlet/bundl-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vimlet/bundl-plugins/issues"
+  },
   "dependencies": {
     "stylus": "^0.54.5"
   },
