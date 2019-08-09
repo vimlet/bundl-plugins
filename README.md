@@ -38,9 +38,9 @@ module.exports = {
 * [Terser](https://www.npmjs.com/package/@bundl/terser)
 * [JSX](https://www.npmjs.com/package/@bundl/jsx)
 * [Sass](https://www.npmjs.com/package/@bundl/sass)
+* [CoffeeScript](https://www.npmjs.com/package/@bundl/coffee)
 
 ## W.I.P plugins
 
 * ESLint
-* CoffeeScript
 * LESS
