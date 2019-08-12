@@ -1,6 +1,13 @@
 const { minify } = require('terser')
 
 module.exports = opts => entry => {
-  entry.content = minify(entry.content, opts).code
+  const result = minify(entry.content, opts)
+
+  if (result.error) {
+    throw result.error
+  } else {
+    entry.content = result.code
+  }
+
   return entry
 }
