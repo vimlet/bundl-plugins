@@ -17,8 +17,7 @@
     "terser": "^4.1.3"
   },
   "peerDependencies": {
-    "@vimlet/bundl": ">=1.0.5",
-    "terser": ">=4.1"
+    "@vimlet/bundl": ">=1.0.5"
   },
   "gitHead": "8457b6950409bf36a0c14733de1e87720166954f"
 }

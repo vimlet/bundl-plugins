@@ -23,8 +23,7 @@
     "buble": "^0.19.8"
   },
   "peerDependencies": {
-    "@vimlet/bundl": ">=1.1",
-    "buble": ">=0.19.8"
+    "@vimlet/bundl": ">=1.1"
   },
   "gitHead": "8457b6950409bf36a0c14733de1e87720166954f"
 }

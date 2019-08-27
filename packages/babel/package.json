@@ -23,7 +23,6 @@
     "@babel/core": "^7.5.5"
   },
   "peerDependencies": {
-    "@babel/core": ">=7.5.5",
     "@vimlet/bundl": ">=1.0.5"
   },
   "gitHead": "8457b6950409bf36a0c14733de1e87720166954f"
